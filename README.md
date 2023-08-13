@@ -1,4 +1,4 @@
-![Logotipo](source/assets/Splash.png)
+![Logotipo](source/assets/splash_art.jpg)
 
 # Willow
 - A Discord BOT
