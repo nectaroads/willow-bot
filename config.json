@@ -1,0 +1,8 @@
+{
+    "DST_SH" : "./runDST.sh",
+    "PREFIX" : "!",
+    "DATABASE_PORT" : "8080",
+
+    "WELCOMECHAT" : "1145580200059473920",
+    "DONTSTARVECHAT": "1143974246561882183"
+}

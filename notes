@@ -1,0 +1,94 @@
+Master:,[00:00:59]:,Client,authenticated:,(KU_PvT0Pxd2),Peuloom,a,b,c,
+Master:,[00:01:16]:,[Join,Announcement],Peuloom,a,b,c,
+Master:,[00:08:36]:,[Leave,Announcement],Peuloom,a,b,c,
+
+[Shard],Starting
+[Shard],Stopping
+
+`Crops`
+
+- 8 giant / plot
+- 1 plot = 1.6 daily
+- 8 plot = 12.8 daily
+- 8 star = 16.64 daily
+
+```
+carrot_oversized:1, corn_oversized:1, potato_oversized:1, asparagus_oversized:1, tomato_oversized:1, eggplant_oversized:1, watermelon_oversized:1, pumpkin_oversized:1, durian_oversized:1, dragonfruit_oversized:1, garlic_oversized:1, onion_oversized:1, pepper_oversized:1, pomegranate_oversized:1
+```
+
+`Fishes`
+
+- 1 fish / season
+- rare = 17.14 daily 300e
+- exploitable: 75% debuff.
+- rare = 5.7 daily
+
+```
+oceanfish_small_6:100, oceanfish_small_7:100, oceanfish_small_8:100,
+oceanfish_medium_8:100
+```
+
+`Recipes`
+
+- recipe / day
+- 1 = ~10.45
+
+```
+lobsterdinner: 10, icecream: 15, koalefig_trunk: 5, dustmeringue: 10, jellybean: 5, batnosehat: 15, mandrakesoup: 20, waffles: 15, voltgoatjelly: 10, freshfruitcrepes: 10
+```
+
+`Treasures`
+
+- 1 Treasure / day
+- 1 = 50
+
+```
+"pirate_stash, 50
+```
+
+`Cryptids`
+
+- / day
+- 1 = 12
+
+```
+claywarg:1, warg:1, spat:1, krampus:1, leif:1, leif_sparse:1, hutch:1, glommer:1, gingerbreadwarg:1, chester:1, walrus:1, spiderqueen:1
+```
+
+`Bosses`
+
+- 12.71 / day
+
+```
+alterguardian_phase3:100, antlion:40, bearger:40, beequeen:40, crabking:40, deerclops:20, dragonfly:40, eyeofterror:10, klaus:40, lordfruitfly:40, malbatross:40, minotaur:40, moose:10, shadow_knight:10, shadow_bishop:10, shadow_rook:10, stalker_atrium:100, toadstool_dark:100, toadstool:80, twinofterror80:40, twinofterror2:40
+```
+
+Databases
+
+    Server
+season:INTEGER,
+version:STRING,
+event:STRING,
+
+    DontstarveUser
+id:INTEGER
+DonstarveId:STRING
+discordId:STRING
+points:FLOAT
+coins:FLOAT
+time:INTEGER
+deaths:INTEGER
+character:STRING
+flags:STRING
+
+pastPoints:STRING
+pastTime:STRING
+
+    DiscordUser
+id:INTEGER
+discordId:STRING
+flags:STRING
+badges:STRING
+
+Tests
+array:STRING,
